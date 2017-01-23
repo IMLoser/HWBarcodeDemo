@@ -1,3 +1,3 @@
-image[](https://github.com/IMLoser/HWBarcodeDemo/blob/master/HWBarcodeDemo/LOGO.jpg)
+![](https://github.com/IMLoser/HWBarcodeDemo/blob/master/HWBarcodeDemo/LOGO.jpg)
 # HWBarcodeDemo 
 二维码扫描功能实现
