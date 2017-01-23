@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wSk-qp-JRf">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HWBarcodeDemo-->
+        <scene sceneID="M3w-IB-ILi">
+            <objects>
+                <viewController id="IZX-B9-sHB" customClass="HWBarcodeController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pIe-cg-A0H"/>
+                        <viewControllerLayoutGuide type="bottom" id="NuG-ro-6mO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mZn-Il-PVK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="HWBarcodeDemo" id="c0K-Y7-avU">
+                        <barButtonItem key="rightBarButtonItem" id="5qZ-F5-veA">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mqE-56-qJK">
+                                <rect key="frame" x="329" y="7" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="navigationbar_pop"/>
+                                <state key="highlighted" image="navigationbar_pop_highlighted"/>
+                                <connections>
+                                    <action selector="barcodeClick:" destination="IZX-B9-sHB" eventType="touchUpInside" id="Deq-dc-u14"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hjD-uI-J2g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="992.79999999999995" y="132.68365817091455"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="wAY-zy-wCD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wSk-qp-JRf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jTa-me-4bK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="IZX-B9-sHB" kind="relationship" relationship="rootViewController" id="v1W-6J-vFv"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6dI-4F-MZC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="navigationbar_pop" width="30" height="30"/>
+        <image name="navigationbar_pop_highlighted" width="30" height="30"/>
+    </resources>
+</document>

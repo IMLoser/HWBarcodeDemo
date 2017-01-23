@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97FC08C31E33212A006D72D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC08C21E33212A006D72D7 /* main.m */; };
+		97FC08CE1E33212A006D72D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97FC08CD1E33212A006D72D7 /* Assets.xcassets */; };
+		97FC08D11E33212A006D72D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97FC08CF1E33212A006D72D7 /* LaunchScreen.storyboard */; };
+		97FC08DB1E3321A0006D72D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC08DA1E3321A0006D72D7 /* AppDelegate.m */; };
+		97FC08E61E332213006D72D7 /* HWBarcode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97FC08E51E332213006D72D7 /* HWBarcode.storyboard */; };
+		97FC08E91E332240006D72D7 /* HWBarcodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC08E81E332240006D72D7 /* HWBarcodeController.m */; };
+		97FC08EB1E332361006D72D7 /* QR.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97FC08EA1E332361006D72D7 /* QR.storyboard */; };
+		97FC08EE1E332426006D72D7 /* QRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC08ED1E332426006D72D7 /* QRViewController.m */; };
+		97FC08F11E333C0E006D72D7 /* HWNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC08F01E333C0E006D72D7 /* HWNav.m */; };
+		97FC08F71E335DFB006D72D7 /* QRAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FC08F61E335DFB006D72D7 /* QRAnimationView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		97FC08BE1E33212A006D72D7 /* HWBarcodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWBarcodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97FC08C21E33212A006D72D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		97FC08CD1E33212A006D72D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97FC08D01E33212A006D72D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97FC08D21E33212A006D72D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97FC08D91E3321A0006D72D7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		97FC08DA1E3321A0006D72D7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		97FC08E51E332213006D72D7 /* HWBarcode.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HWBarcode.storyboard; sourceTree = "<group>"; };
+		97FC08E71E332240006D72D7 /* HWBarcodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWBarcodeController.h; sourceTree = "<group>"; };
+		97FC08E81E332240006D72D7 /* HWBarcodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWBarcodeController.m; sourceTree = "<group>"; };
+		97FC08EA1E332361006D72D7 /* QR.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QR.storyboard; sourceTree = "<group>"; };
+		97FC08EC1E332426006D72D7 /* QRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRViewController.h; sourceTree = "<group>"; };
+		97FC08ED1E332426006D72D7 /* QRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRViewController.m; sourceTree = "<group>"; };
+		97FC08EF1E333C0E006D72D7 /* HWNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWNav.h; sourceTree = "<group>"; };
+		97FC08F01E333C0E006D72D7 /* HWNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWNav.m; sourceTree = "<group>"; };
+		97FC08F51E335DFB006D72D7 /* QRAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRAnimationView.h; sourceTree = "<group>"; };
+		97FC08F61E335DFB006D72D7 /* QRAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRAnimationView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97FC08BB1E33212A006D72D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97FC08B51E33212A006D72D7 = {
+			isa = PBXGroup;
+			children = (
+				97FC08C01E33212A006D72D7 /* HWBarcodeDemo */,
+				97FC08BF1E33212A006D72D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97FC08BF1E33212A006D72D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97FC08BE1E33212A006D72D7 /* HWBarcodeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97FC08C01E33212A006D72D7 /* HWBarcodeDemo */ = {
+			isa = PBXGroup;
+			children = (
+				97FC08D81E3321A0006D72D7 /* Others */,
+				97FC08DC1E3321E2006D72D7 /* Classes */,
+				97FC08C11E33212A006D72D7 /* Supporting Files */,
+			);
+			path = HWBarcodeDemo;
+			sourceTree = "<group>";
+		};
+		97FC08C11E33212A006D72D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				97FC08CD1E33212A006D72D7 /* Assets.xcassets */,
+				97FC08CF1E33212A006D72D7 /* LaunchScreen.storyboard */,
+				97FC08D21E33212A006D72D7 /* Info.plist */,
+				97FC08C21E33212A006D72D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		97FC08D81E3321A0006D72D7 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				97FC08D91E3321A0006D72D7 /* AppDelegate.h */,
+				97FC08DA1E3321A0006D72D7 /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		97FC08DC1E3321E2006D72D7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				97FC08DD1E3321E2006D72D7 /* Home */,
+				97FC08E11E3321E2006D72D7 /* QR */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		97FC08DD1E3321E2006D72D7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				97FC08DE1E3321E2006D72D7 /* Controller */,
+				97FC08DF1E3321E2006D72D7 /* Model */,
+				97FC08E01E3321E2006D72D7 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		97FC08DE1E3321E2006D72D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				97FC08E51E332213006D72D7 /* HWBarcode.storyboard */,
+				97FC08E71E332240006D72D7 /* HWBarcodeController.h */,
+				97FC08E81E332240006D72D7 /* HWBarcodeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		97FC08DF1E3321E2006D72D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		97FC08E01E3321E2006D72D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		97FC08E11E3321E2006D72D7 /* QR */ = {
+			isa = PBXGroup;
+			children = (
+				97FC08E21E3321E2006D72D7 /* Controller */,
+				97FC08E31E3321E2006D72D7 /* Model */,
+				97FC08E41E3321E2006D72D7 /* View */,
+			);
+			path = QR;
+			sourceTree = "<group>";
+		};
+		97FC08E21E3321E2006D72D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				97FC08EA1E332361006D72D7 /* QR.storyboard */,
+				97FC08EF1E333C0E006D72D7 /* HWNav.h */,
+				97FC08F01E333C0E006D72D7 /* HWNav.m */,
+				97FC08EC1E332426006D72D7 /* QRViewController.h */,
+				97FC08ED1E332426006D72D7 /* QRViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		97FC08E31E3321E2006D72D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		97FC08E41E3321E2006D72D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97FC08F51E335DFB006D72D7 /* QRAnimationView.h */,
+				97FC08F61E335DFB006D72D7 /* QRAnimationView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97FC08BD1E33212A006D72D7 /* HWBarcodeDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97FC08D51E33212A006D72D7 /* Build configuration list for PBXNativeTarget "HWBarcodeDemo" */;
+			buildPhases = (
+				97FC08BA1E33212A006D72D7 /* Sources */,
+				97FC08BB1E33212A006D72D7 /* Frameworks */,
+				97FC08BC1E33212A006D72D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HWBarcodeDemo;
+			productName = HWBarcodeDemo;
+			productReference = 97FC08BE1E33212A006D72D7 /* HWBarcodeDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97FC08B61E33212A006D72D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "曹航玮";
+				TargetAttributes = {
+					97FC08BD1E33212A006D72D7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 96C4LSK57Q;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 97FC08B91E33212A006D72D7 /* Build configuration list for PBXProject "HWBarcodeDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97FC08B51E33212A006D72D7;
+			productRefGroup = 97FC08BF1E33212A006D72D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97FC08BD1E33212A006D72D7 /* HWBarcodeDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97FC08BC1E33212A006D72D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97FC08D11E33212A006D72D7 /* LaunchScreen.storyboard in Resources */,
+				97FC08CE1E33212A006D72D7 /* Assets.xcassets in Resources */,
+				97FC08E61E332213006D72D7 /* HWBarcode.storyboard in Resources */,
+				97FC08EB1E332361006D72D7 /* QR.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97FC08BA1E33212A006D72D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97FC08E91E332240006D72D7 /* HWBarcodeController.m in Sources */,
+				97FC08F11E333C0E006D72D7 /* HWNav.m in Sources */,
+				97FC08F71E335DFB006D72D7 /* QRAnimationView.m in Sources */,
+				97FC08DB1E3321A0006D72D7 /* AppDelegate.m in Sources */,
+				97FC08C31E33212A006D72D7 /* main.m in Sources */,
+				97FC08EE1E332426006D72D7 /* QRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97FC08CF1E33212A006D72D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97FC08D01E33212A006D72D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97FC08D31E33212A006D72D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		97FC08D41E33212A006D72D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97FC08D61E33212A006D72D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 96C4LSK57Q;
+				INFOPLIST_FILE = HWBarcodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalala.PRN.HWBarcodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		97FC08D71E33212A006D72D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 96C4LSK57Q;
+				INFOPLIST_FILE = HWBarcodeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lalala.PRN.HWBarcodeDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97FC08B91E33212A006D72D7 /* Build configuration list for PBXProject "HWBarcodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97FC08D31E33212A006D72D7 /* Debug */,
+				97FC08D41E33212A006D72D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97FC08D51E33212A006D72D7 /* Build configuration list for PBXNativeTarget "HWBarcodeDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97FC08D61E33212A006D72D7 /* Debug */,
+				97FC08D71E33212A006D72D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97FC08B61E33212A006D72D7 /* Project object */;
+}
